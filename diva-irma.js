@@ -66,7 +66,7 @@ function requestIrmaSession(endpoint, jwtBody) {
 }
 
 /**
- * Generate a content array that can be used in either disclosure of signature request
+ * Generate a content array that can be used in either a disclosure or a signature request
  * @param {String/Object} attribute identitifier to be disclosed or content object
  * @param {String/Undefined} attributeLabel label used with attribute identifier
  * @returns {Array<Object>} list of attribute disjunctions
@@ -78,7 +78,7 @@ function generateDisclosureContent(attributes, attributeLabel) {
 }
 
 /**
- * Generate a content array that can be used in either disclosure of signature request
+ * Generate a content array that can be used in either a disclosure or a signature request
  * @param {String/Object} attribute identitifier to be disclosed or content object
  * @param {String/Undefined} attributeLabel label used with attribute identifier
  * @param {String}(Optional) divaSessionId Optional session id,
